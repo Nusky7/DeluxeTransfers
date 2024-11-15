@@ -1,0 +1,75 @@
+<div>
+  <div class="container mt-5" id="formContainer">
+    <div class="card bg-dark text-light">
+      <div class="card-body">
+        <h2 class="card-title text-center mb-4">- Rent your Car -</h2>
+        
+        <form (ngSubmit)="onSubmit()">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <div class="form-floating mb-3">
+                <select id="carType" class="form-select" [(ngModel)]="selectedCarType" name="carType">
+                  <option value="">Select a car type</option>
+                  <option value="estandar">Standard</option>
+                  <option value="monovolumen">Minivan</option>
+                  <option value="electrico-estandar">Electric Standard</option>
+                  <option value="electrico-luxury">Electric Luxury</option>
+                  <option value="vtc-estandar">VTC Standard</option>
+                  <option value="minivan-taxi">Minivan Taxi x8</option>
+                  <option value="business">Business</option>
+                  <option value="minivan-executive">Minivan Executive</option>
+                </select>
+                <label for="carType">Type of Car</label>
+              </div>
+            </div>
+            
+            <div class="col-md-6">
+              <div class="form-floating mb-3">
+                <select id="pickupLocation" class="form-select" [(ngModel)]="pickupLocation" name="pickupLocation">
+                  <option value="estacion1">Valencia Airport</option>
+                  <option value="estacion2">Joaquín Sorolla Station</option>
+                  <option value="estacion3">Del Norte Station</option>
+                </select>
+                <label for="pickupLocation">Pick-up Station</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="row g-3">
+            <div class="col-md-6">
+              <div class="form-floating mb-3">
+                <input type="text" id="destination" class="form-control" [(ngModel)]="destination" name="destination" list="cityList" placeholder="Enter your destination">
+                <label for="destination">Destination</label>
+                <datalist id="cityList">
+                  <option *ngFor="let city of cities" [value]="city"></option>
+                </datalist>
+              </div>
+            </div>
+          
+            <div class="col-md-6">
+              <div class="form-floating mb-3">
+                <select id="passengers" class="form-select" [(ngModel)]="passengers" name="passengers">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                </select>
+                <label for="passengers">Number of passengers</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-grid">
+            <button id="reserva" type="submit" class="btn btn-lg">Book Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>

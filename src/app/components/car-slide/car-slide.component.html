@@ -1,0 +1,75 @@
+<br>
+<div class="container bg-dark">
+  <h2>Selección de Vehículo</h2>
+  <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" class="li" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" class="li" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" class="li" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" class="li" data-bs-target="#carouselIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" class="li" data-bs-target="#carouselIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" class="li" data-bs-target="#carouselIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      <button type="button" class="li" data-bs-target="#carouselIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+      <button type="button" class="li" data-bs-target="#carouselIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active"  >
+        <img src="assets/images/car1.png" class="d-block w-100" alt="First slide" data-car-type="estandar" (click)="navigateToForm('')">
+        <h3>Estándar</h3>
+        <p>Toyoya Prius hybrid, Citroen C-Elysse, Skoda Octavia, Dacia Logan o superior.</p>
+        <br>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/car2.png" class="d-block w-100"  alt="Second slide" data-car-type="monovolumen" (click)="navigateToForm('')">
+        <h3>Monovolumen</h3>
+        <p>Toyota Prius Plus, Volkswagen Touran, Ford S-Max, Citroen C4 Picasso, Dacia Lodgi o similar.</p>
+        <br>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/car3.png" class="d-block w-100" alt="Third slide" data-car-type="electrico-estandar" (click)="navigateToForm('')">
+        <h3>Eléctrico estándar</h3>
+        <p>Kia Niro Electric, Ionic 5 o similar.</p>
+        <br>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/car4.png" class="d-block w-100" alt="Fourth slide" data-car-type="electrico-luxury" (click)="navigateToForm('')">
+        <h3>Eléctrico Luxury</h3>
+        <p>Tesla Model 3 o similar.</p>
+        <br>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/car5.png" class="d-block w-100" alt="Fifth slide" data-car-type="vtc-estandar" (click)="navigateToForm('')">
+        <h3>VTC Estándar</h3>
+        <p>Toyoya Corolla hybrid, Ford Mondeo, Volkswagen Passat, Skoda Octavia, o superior. </p>
+        <br>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/car6.png" class="d-block w-100" alt="Sixth slide" data-car-type="minivan-taxi" (click)="navigateToForm('')">
+        <h3>Minivan Taxi x8</h3>
+        <p>Mercedes Vito, Volkswagen Caravelle, Ford Transit Custom o similar.</p>
+        <br>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/car7.png" class="d-block w-100" alt="Seventh slide" data-car-type="business" (click)="navigateToForm('')">
+        <h3>Business</h3>
+        <p>Mercedes Clase E o superior.</p>
+        <br>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/car8.png" class="d-block w-100" alt="Eighth slide" data-car-type="minivan-executive" (click)="navigateToForm('')">
+        <h3>Minivan Executive</h3>
+        <p>Mercedes Clase V o similar.</p>
+        <br>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+

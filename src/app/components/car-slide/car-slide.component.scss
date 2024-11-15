@@ -1,0 +1,35 @@
+.li{
+  background-color: rgba(249, 249, 249, 0.742);
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+
+
+img {
+  max-width: 45vw; 
+  height: auto;
+  margin: 0 auto;
+  filter: drop-shadow(0 0 20px rgb(0, 0, 0));
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  border-radius: 50px;
+  width: 3vw;
+  margin: 30%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  font-size: 24px; 
+  width: 40px; 
+  height: 40px;
+}
+.carousel-inner .carousel-item img {
+  cursor: pointer;
+}
+
+h2{
+  // color: whitesmoke;
+}

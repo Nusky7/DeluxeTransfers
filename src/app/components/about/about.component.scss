@@ -1,0 +1,63 @@
+.bkg {
+    margin-top: 5%;
+    background-image: url('../../../../src/assets/images/bkg/1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+}
+
+.txt{
+    font-family: 'Belgium Free', sans-serif;
+}
+
+.row {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    width: 100%; 
+    max-width: 900px; 
+}
+
+h1.display-4 {
+    font-family: 'Belgium Free', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+p.lead {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+strong {
+    font-weight: bold;
+    color: #ffb300;
+}
+
+.bg-dark {
+    background-color: #222;
+    color: white;
+}
+
+.row h1, .row p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}

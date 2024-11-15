@@ -1,0 +1,78 @@
+.footer {
+    background-color: #222; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+  }
+  
+  .footer-title {
+    font-family: 'Belgium Free', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color:  #ffb300; 
+  }
+  
+  .footer p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #ffb300; 
+  }
+  
+  .social-links {
+    margin-top: 1rem;
+  }
+  
+  .social-icon {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #ffb300;
+  }
+  
+  .social-icon i {
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icon:hover i {
+    transform: scale(1.2); 
+  }
+  
+  .footer p {
+    font-size: 0.875rem;
+    color: #ccc; 
+  }
+
+  #map {
+    width: 11vw !important;
+    border-radius: 10px;
+    margin-bottom: -4%;
+}
+  
+  @media (max-width: 767px) {
+    .footer .row {
+      text-align: center;
+    }
+  
+    .social-links {
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+  
+    .social-icon {
+      margin-right: 10px;
+    }
+  }
+  

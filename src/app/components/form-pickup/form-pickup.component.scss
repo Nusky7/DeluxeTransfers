@@ -1,0 +1,36 @@
+@keyframes border-blink {
+    0% {
+      border-color: transparent;
+      box-shadow: 0 0 6px rgba(240, 166, 4, 0.3);
+    }
+    50% {
+      border-color: #ffb300;
+      box-shadow: 0 0 6px rgba(240, 166, 4, 0.9);
+    }
+    100% {
+      border-color: transparent;
+      box-shadow: 0 0 6px rgba(240, 166, 4, 0.3);
+    }
+  }
+  
+  .blink-border {
+    border: 2px solid;
+    box-shadow: 0 0 6px rgba(240, 166, 4, 0.9);
+    animation: border-blink 1s 3;
+    animation-fill-mode: forwards;
+    transition: border-color 0.3s ease; 
+  }
+
+  button{
+    background-color: #89630c;
+    color: whitesmoke;
+    font-size: 1.5em;
+  }
+  .card-body{
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.9);
+    border-radius: 7px;
+  }
+
+  .card-title{
+    font-family: 'Belgium Free', sans-serif;
+  }
