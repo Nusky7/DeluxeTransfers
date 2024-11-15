@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 30px; 
 }
 
 .container {
@@ -19,18 +20,21 @@
     font-family: 'Belgium Free', sans-serif;
 }
 
+
 .row {
+    margin-top: 3%;
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 2rem;
     border-radius: 15px;
-    width: 100%; 
-    max-width: 900px; 
-}
+    width: 100%;
+    max-width: 900px;
+  }
+  
 
 h1.display-4 {
     font-family: 'Belgium Free', sans-serif;
-    font-size: 3rem;
+    font-size: 3em;
     font-weight: bold;
     text-align: center;
     margin-bottom: 1.5rem;
@@ -60,4 +64,18 @@ strong {
 
 .row h1, .row p {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+.row h1 {
+font-size: 2.5em;
+}
+
+.row p, .row .lead {
+font-size: 1rem;
+text-align: center;
+}
+@media (max-width: 767px){
+
+    .bkg{
+        height: auto;
+    }
 }
